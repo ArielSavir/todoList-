@@ -1,0 +1,90 @@
+
+:root {
+	--righteous-font: 'Righteous', cursive;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    width:100vw;
+    min-height:100vh;
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+
+h1.display-4.text-center{
+    margin-top: 100px;
+    padding-bottom:30px;
+	font-family: var(--righteous-font);
+}
+
+
+
+hr{
+   background-color: whitesmoke;
+   
+}
+
+.card{
+    width:auto;
+    height:auto;
+    font-size:25px;
+    margin-bottom:50px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: var(--righteous-font);
+   
+}
+
+.checkboxes{
+  
+    margin-top:8px;
+    height:25px;
+    width:22px;
+    float:right;
+     margin-left:20px;
+}
+
+
+.svg-inline--fa.fa-trash-alt.fa-w-14.delete{
+    margin-top:6px;
+    cursor: pointer;
+    height:25px;
+    width:22px;
+    float:right;
+    margin-left:10px;
+   
+}
+
+li {
+    margin-left:50px;
+}
+
+#clearAll{
+    padding-bottom:50px;
+    position:relative;
+    bottom:40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
